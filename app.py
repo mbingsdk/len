@@ -39,8 +39,8 @@ from linebot.models import (
     SeparatorComponent,
 )
 app = Flask(__name__)
-line_bot_api = LineBotApi('TOKEN DISINI YA BUJANK')
-handler = WebhookHandler('DISINI SECREET')
+line_bot_api = LineBotApi('y9utrlLNYMFFoyyl82VXzzG8p81Gt1TvrFasOwneagO63MHLux6GHG2JxtyzkfSJYcweQObwoBkS6xpeRBJzGN/6ULoUvQxMjYuN4NWhBnl5xp7G3guk+T8oSDJRxzE06vaJh/bwdPbJQpimikYGFQdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('57232911b1b2427470ff3f68afc87da5')
 flex = flexTemplate()
 #fuzz = matching()
 #spo = assu()
