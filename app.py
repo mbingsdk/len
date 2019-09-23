@@ -174,7 +174,7 @@ def handle_message(event):
 		This is example for send a flex message
 		( template in flex.py file )
 		"""
-		message = [flex.contoh()] #use []
+		message = [flex.contoh(),flex.contoh2()] #use []
 		sendFlex(alt='THIS IS FLEX MESSAGE', contents=message)
 
 	if text == 'carousel':
