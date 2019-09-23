@@ -16,13 +16,13 @@ class flexTemplate:
   "type": "bubble",
   "hero": {
     "type": "image",
-    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "url": "https://net.avakinworld.com/images/bg_2.jpg",
     "size": "full",
     "aspectRatio": "20:13",
     "aspectMode": "cover",
     "action": {
       "type": "uri",
-      "uri": "http://linecorp.com/"
+      "uri": "https://net.avakinworld.com/"
     }
   },
   "body": {
@@ -31,7 +31,7 @@ class flexTemplate:
     "contents": [
       {
         "type": "text",
-        "text": "ARSYBAI GANTHENG",
+        "text": "#AvakinNews",
         "weight": "bold",
         "size": "xl"
       },
@@ -88,14 +88,14 @@ class flexTemplate:
             "contents": [
               {
                 "type": "text",
-                "text": "Place",
+                "text": "Bio:",
                 "color": "#aaaaaa",
                 "size": "sm",
                 "flex": 1
               },
               {
                 "type": "text",
-                "text": "Miraina Tower, 4-1-6 Shinjuku, Tokyo",
+                "text": "Membagikan Informasi Sekitar Avakin Life",
                 "wrap": True,
                 "color": "#666666",
                 "size": "sm",
@@ -117,7 +117,7 @@ class flexTemplate:
               },
               {
                 "type": "text",
-                "text": "10:00 - 23:00",
+                "text": "Open 24 Jam",
                 "wrap": True,
                 "color": "#666666",
                 "size": "sm",
@@ -140,8 +140,8 @@ class flexTemplate:
         "height": "sm",
         "action": {
           "type": "uri",
-          "label": "ARSY",
-          "uri": "line://ti/p/~arsy22bai"
+          "label": "Official Account",
+          "uri": "line://ti/p/%40cbl8900e"
         }
       },
       {
@@ -151,7 +151,7 @@ class flexTemplate:
         "action": {
           "type": "uri",
           "label": "WEBSITE",
-          "uri": "https://arsybai.xyz"
+          "uri": "https://net.avakinworld.com"
         }
       },
       {
